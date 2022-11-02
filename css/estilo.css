@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+h1 {
+    margin-left: 10rem;
+    font-size: 100px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+    height: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+    font-size: 20px;
+}
+
+/* FOOTER */
+.derech {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+}
+
+.footer a {
+    color: blue;
+}
+
+/* INICIO */
+.fotos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+/* NOVEDADES */
+.vidUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.vidUno p {
+    width: 750px;
+    font-size: 25px;
+    margin-left: 10px;
+    
+
+}
+
+.vidDos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.vidDos p {
+    width: 750px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.vidTres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.vidTres p {
+    width: 750px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+.btn1 {
+    align-items: flex-start;
+}
+
+.btn2 {
+    align-items: flex-end;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacto {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+}
+
+
