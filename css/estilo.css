@@ -1,29 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     background-color: rgb(206, 206, 206);
 }
 
-h1 {
-    margin-left: 10rem;
-    font-size: 100px;
+.Container {
+    background-color: white;
+   padding: 10px;
+   width: 100%;
 }
 
-.logo {
-    align-items: center;
+.containerHead {
     display: flex;
+    align-items: center;
+    padding-left: 4rem;
 }
 
-ul {
+.row-1{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row-2{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    padding left: ;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.containerTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.navbar-nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: bisque;
     height: 30px;
     list-style: none;
+    width: 100%;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
 }
 
 a {
@@ -45,18 +87,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: cornflowerblue;
-}
-
-.footer a {
-    color: blue;
-}
-
-/* INICIO */
-.fotos {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+    background-color: gray;
 }
 
 /* NOVEDADES */
@@ -132,4 +163,16 @@ form {
     justify-content: space-around;
 }
 
+/* CAROUSEL */
 
+.row {
+    padding-left: 300px;
+    width: 100%;
+}
+
+.containerCarousel {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

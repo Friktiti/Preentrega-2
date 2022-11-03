@@ -1,57 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Preentrega N°1</title>
-    <link rel="stylesheet" href="css/estilo.css">
-  </head>
 
-  <body>
-    <header>
-      <section class="logo">
-        <img src="img/Logo.webp" alt="Logo" width="400px" height="400px"/>
-        <h1>LiQui</h1>
-      </section>
-      <br>
-      <h2>Conoce la experiencia LiQui</h2>
-    </header>
-    <br>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preentrega N°2</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="paginas/productos.html">Productos</a></li>
-            <li><a href="paginas/nosotros.html">Nosotros</a></li>
-            <li><a href="paginas/novedades.html">Novedades</a></li>
-            <li><a href="paginas/contacto.html">Contacto</a></li> 
-        </ul>
-    </nav>
-    <br>
-    <main class="fotos">
-      <img src="./img/Alfajor de maicena.jpg" alt="Alfajor de maicena" width="200px" height="200px"/>
-      <img src="./img/Alfajor.jpg" alt="Alfajor de chocolate" width="200px" height="200px"/>
-      <img src="./img/chocolate.jpeg" alt="Chocolate" width="200px" height="200px"/>
-      <img src="./img/coco rallado.jpg" alt="Coco rallado" width="200px" height="200px"/>
-      <img src="./img/copitos.jpg" alt="Copitos" width="200px" height="200px"/>
-      <img src="./img/dulce-de-leche.jpg" alt="Dulce de leche" width="200px" height="200px"/>
-    </main>
-    <br>
-    <footer>
-      <section class="derech">
-        <h4>TODOS LOS DERECHOS RESERVADOS</h4>
-        <h4>TÉRMINOS Y CONDICIONES</h4>
-      </section>
-        <br>
-        <section class="footer">
-          <a href="https://www.instagram.com/havannaarg/" target="_blank">Instagram</a>
-          <a href="https://www.facebook.com/havannaargentina/" target="_blank">Facebook</a>
-          <a href="https://twitter.com/Havanna_arg" target="_blank">Twitter</a>
-          <a href="https://www.youtube.com/watch?v=Hf_ZIMM1490" target="_blank">YouTube</a>
-        </section>
-    </footer>
-      <br>
+<body>
+
+  <header class="grid text-center Container" data-aos="fade-right">
+
+      <div class="row-1 containerHead">
+          <div class="">
+            <img src="img/Logo.webp" alt="Logo" width="300px" height="300px" class="img-fluid rounded-circle" />
+          </div>
+
+          <div class="containerTitle col-md-6 col-sm-12 ">
+            <h1>LiQui</h1>
+            <h2>Conoce la experiencia LiQui</h2>
+          </div>
+     </div>
+        
     
-  </body>
+  </header>
+
+  <br>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" href="#">Nosotros</a>
+          <a class="nav-link" href="#">Novedades</a>
+          <a class="nav-link" href="#">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="containerCarousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/copitos.jpg" class="d-block w-100" alt="Copitos" width="200px" height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Alfajor de maicena.jpg" class="d-block w-100 alt="Alfajor de maicena" width="200px"
+              height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Alfajor.jpg" class="d-block w-100" alt="Alfajor de chocolate" width="200px" height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/chocolate.jpeg" class="d-block w-100" alt="Chocolate" width="200px" height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/coco rallado.jpg" class="d-block w-100" alt="Coco rallado" width="200px" height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/dulce-de-leche.jpg" class="d-block w-100" alt="Dulce de leche" width="200px" height="400px">
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section class="derech">
+      <h4>TODOS LOS DERECHOS RESERVADOS</h4>
+      <h4>TÉRMINOS Y CONDICIONES</h4>
+    </section>
+    <br>
+    <section class="footer">
+      <a href="https://www.instagram.com/havannaarg/" target="_blank" class="link-primary">Instagram</a>
+      <a href="https://www.facebook.com/havannaargentina/" target="_blank" class="link-primary">Facebook</a>
+      <a href="https://twitter.com/Havanna_arg" target="_blank" class="link-primary">Twitter</a>
+      <a href="https://www.youtube.com/watch?v=Hf_ZIMM1490" target="_blank" class="link-primary">YouTube</a>
+    </section>
+  </footer>
+
+  <br>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
 </html>
