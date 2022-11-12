@@ -34,7 +34,6 @@ body {
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
-    padding left: ;
 }
 
 h1 {
@@ -77,10 +76,8 @@ a {
 /* FOOTER */
 .derech {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .footer {
@@ -89,6 +86,7 @@ a {
     justify-content: space-evenly;
     background-color: gray;
 }
+
 
 /* NOVEDADES */
 .vidUno {
@@ -138,7 +136,7 @@ a {
 /* FORMULARIO */
 form {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     width: 300px;
 }
 
