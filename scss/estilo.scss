@@ -1,46 +1,50 @@
 body {
     background: linear-gradient(white, #B3567A);
-  }
-  
-  .Container {
+}
+
+.Container {
     padding: 10px;
     width: 100%;
-  }
-  
-  .containerHead {
-    display: flex;
-    align-items: center;
-    padding-left: 4rem;
-  }
-  
-  .row-1, .row-2 {
-    --bs-gutter-x:1.5rem;
-    --bs-gutter-y:0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
-  }
-  
-  .containerTitle {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-left: 2rem;
-  }
-  
-  h1 {
+
+    .row-1 {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+
+        .containerTitle {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 2rem;
+        }
+    }
+
+    .containerHead {
+        display: flex;
+        align-items: center;
+        padding-left: 4rem;
+
+
+    }
+}
+
+h1 {
     margin-bottom: 10px;
     font-size: 100px;
     font-family: 'Dancing Script', cursive;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-family: 'Dancing Script', cursive;
-  }
-  
-  .navbar-nav {
+}
+
+/* NAVBAR */
+
+.navbar-nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -52,109 +56,92 @@ body {
     font-size: 150%;
     border-top: black 1px solid;
     border-bottom: gray 2px solid;
-  }
-  
-  /* FOOTER */
-  
-  .derech {
+}
+
+/* FOOTER */
+
+.derech {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 50px;
-  }
-  
-  .footer {
+}
+
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: gray;
-  }
-  
-  /* NOVEDADES */
-  
-  .vidUno {
+}
+
+/* NOVEDADES */
+
+.paragraph {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-  
-    p {
-      width: 750px;
-      font-size: 25px;
-      margin-left: 10px;
-    }
-  }
-  
-  .vidDos {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-  
-    p {
-      width: 750px;
-      font-size: 25px;
-      margin-left: 10px;
-    }
-  }
-  
-  .vidTres {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-  
-    p {
-      width: 750px;
-      font-size: 25px;
-      margin-left: 10px;
-    }
-  }
-  
-  /* FORMULARIO */
-  
-  .contacto {
+    text-align: center;
+    padding-top: 15%;
+}
+
+
+/* FORMULARIO */
+
+.contacto {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
-  }
-  
-  .mb-3 {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    padding: 5% 5% 5% 5%;
-    border-radius: 5px;
-  }
-  
-  .localMap {
-    padding-top: 50px;
-  }
-  
-  .containerButton {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%;
-  }
-  
-  .btn {
-    background-color: black;
-  }
-  
-  /* CAROUSEL */
-  
-  .row {
-    padding-left: 300px;
-    width: 100%;
-  }
-  
-  .containerCarousel {
+
+    .mb-3 {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 5% 5% 5% 5%;
+        border-radius: 5px;
+
+        .localMap {
+            padding-top: 50px;
+
+
+        }
+
+        .containerButton {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 5%;
+
+            .btn {
+                background-color: black;
+            }
+        }
+    }
+}
+
+/* CAROUSEL */
+
+.containerCarousel {
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
-  }
+}
 
-  
+/* PRODUCTOS */
+
+.colProduct {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.paraProduct {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* NOSOTROS */
+
+.containerNos {
+    padding: 10px;
+}
