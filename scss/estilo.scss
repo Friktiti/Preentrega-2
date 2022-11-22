@@ -35,26 +35,23 @@ body {
 h1 {
     margin-bottom: 10px;
     font-size: 100px;
-    font-family: 'Dancing Script', cursive;
+    font-family: $font-family;
 }
 
 h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: $font-family;
 }
 
 /* NAVBAR */
 
 .navbar-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     height: 30px;
     list-style: none;
     width: 100%;
-    color: black;
-    font-family: 'Dancing Script', cursive;
+    color: $color-font;
+    font-family: $font-family;
     font-size: 150%;
-    border-top: black 1px solid;
+    border-top: $bordes;
     border-bottom: gray 2px solid;
 }
 
@@ -67,9 +64,6 @@ h2 {
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     background-color: gray;
 }
 
@@ -92,7 +86,7 @@ h2 {
     .mb-3 {
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
+        border: $bordes;
         padding: 5% 5% 5% 5%;
         border-radius: 5px;
 
@@ -108,7 +102,7 @@ h2 {
             padding-top: 5%;
 
             .btn {
-                background-color: black;
+                background-color: $color-font;
             }
         }
     }
@@ -145,3 +139,7 @@ h2 {
 .containerNos {
     padding: 10px;
 }
+
+/* PARCIALS */
+@import "variables";
+@import "mixin";

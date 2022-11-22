@@ -1,0 +1,14 @@
+//MIXIN:
+@mixin tryIng {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-nav {
+    @include tryIng;
+}
+
+.footer {
+    @include tryIng;
+}
